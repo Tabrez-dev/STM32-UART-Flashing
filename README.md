@@ -39,21 +39,26 @@ Each of the four firmware files in the repository causes one of the four user LE
 
 ## Flashing Procedure
 
-1. **Extract and Build the Utility:**
+1. Clone the repo
+```
+git clone https://github.com/Tabrez-dev/STM32-UART-Flashing.git
+cd STM32-UART-Flashing
+```
+2. **Extract and Build the Utility:**
    - Uncompress the included `stm32flash-0.5.tar.gz`:
      ```sh
      tar -xvzf stm32flash-0.5.tar.gz
      cd stm32flash-0.5
      make
      ```
-2. **Flash the Firmware:**
+3. **Flash the Firmware:**
    - To flash a specific firmware (for example, `firmware1.bin`), run:
      ```sh
      ./stm32flash -b 115200 -R -i dtr:-dtr -v -w ../firmware1.bin /dev/ttyUSB0
      ```
    - Replace `firmware1.bin` with `firmware2.bin`, `firmware3.bin`, or `firmware4.bin` to flash the other binaries.
 
-3. **Complete the Process:**
+4. **Complete the Process:**
    - After flashing, disconnect the DTR connection from BOOT0.
    - Reconnect the board’s usual power source (e.g., via the ST-Link USB port).
    - Press the board’s reset button. With BOOT0 now low, the MCU will boot from the main flash and run the new firmware.
