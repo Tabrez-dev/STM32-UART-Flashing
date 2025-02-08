@@ -143,3 +143,18 @@ As shown in AN2606:
 *Here I observed that nBoot1 is 1 by default becuase of ST production value: 0x00FF 55AA.*
 
 ---
+
+## My Other UART-based Projects
+
+Here are some related projects I have worked on, which implement UART communication using different approaches and techniques:
+
+1. **[STM32 UART Interrupt-Based Driver](https://github.com/Tabrez-dev/STM32-UART-Interrupt-Based-Driver)**: This project demonstrates how to implement UART communication using interrupts on STM32 microcontrollers.
+
+2. **[STM32 Printf UART Redirection Using CMSIS (Cortex-M0)](https://github.com/Tabrez-dev/STM32-Printf-UART-Redirection-Using-CMSIS-Cortex-M0)**: A project that shows how to use CMSIS for redirection of `printf` output to UART for debugging on STM32 Cortex-M0 microcontrollers.
+
+3. **[Baremetal Printf to UART](https://github.com/Tabrez-dev/Baremetal-Printf-to-UART)**: This project explains how to implement `printf` redirection to UART in a bare-metal environment without using any libraries.
+
+4. **[STM32 Baremetal UART Device Driver from Scratch](https://github.com/Tabrez-dev/STM32-Baremetal-UART-Device-Driver-from-Scratch)**: A bare-metal UART driver implementation for STM32 from scratch, focusing on low-level hardware access and driver development.
+
+5. **[STM32 UART DMA](https://github.com/Tabrez-dev/STM32-UART-DMA)**: This project implements UART communication using Direct Memory Access (DMA) for efficient data transfer, reducing CPU overhead.  
+
