@@ -89,7 +89,7 @@ This command conforms to the bootloader protocol described in AN3155 and the boo
 - **AN2606**: STM32 Microcontroller System Memory Boot Mode  
 - **AN3155**: USART Protocol Used in the STM32 Bootloader  
 - **RM0091**: STM32F0 Reference Manual  
-- **RM0091**: STM32F0 data sheet  
+- **UM1690**: STM32F0 user manual 
 
 ---
 
